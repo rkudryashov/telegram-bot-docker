@@ -2,7 +2,6 @@ FROM rust:1.50
 
 ENV CARGO_TERM_COLOR always
 COPY / ./
-RUN ls -la
 RUN cargo install --path . --locked
 
 FROM debian:buster-slim
