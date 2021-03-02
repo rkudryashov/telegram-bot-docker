@@ -1,0 +1,1 @@
+Reproduces https://github.com/telegram-rs/telegram-bot/issues/236
